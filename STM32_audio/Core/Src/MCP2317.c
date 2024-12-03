@@ -57,28 +57,28 @@ void MCP17023_chenillard(char **argv){
 			actual_led = 0XFF;
 		}
 
-		MCP17023_set_led(actual_led);
 		actual_led <<= 1;
+		MCP17023_set_led(actual_led);
 
 		HAL_Delay(500);
 	}
 }
 
-int MCP17023_led(char **argv){
+void MCP17023_led(char **argv){
 
 	int nbrLed = atoi(argv[1]);
 	int setReset = atoi(argv[2]);
 
 	printf("Numero de led %d, set %d \r\n", nbrLed, setReset);
 
-	if(nbrLed < 0 || nbrLed > 8){
+	if(nbrLed < 0 || nbrLed >= 8){
 		printf("Le nombre de led est pas valide \r\n");
-		return 0;
+		return;
 	}
 
 	if(setReset < 0 || setReset > 1){
 		printf("Veuillez saisir un deuxième argument correct \r\n");
-		return 0;
+		return;
 	}
 
     if (setReset == 1) {
@@ -92,6 +92,6 @@ int MCP17023_led(char **argv){
 
     MCP17023_set_led(led_state);
 
-    return 1;
+    return;
 
 }

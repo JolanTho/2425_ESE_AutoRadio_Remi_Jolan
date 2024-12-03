@@ -14,7 +14,7 @@ MAPPER mapping[] = {
 		{ "help", "Print every function available", "None",subfunct_help },
 		{ "clear","Clear screen", "None", subfunct_clear },
 		{ "chenillar","Fait un chenillar de LED","None", MCP17023_chenillard},
-		{ "setLed","Allume la led int led | int SetReset","None", MCP17023_led},
+		{ "setLed","Allume la led ","int led | int SetReset", MCP17023_led},
 };
 uint8_t started[] =
 		"\r\n*--------------------------------------------*"

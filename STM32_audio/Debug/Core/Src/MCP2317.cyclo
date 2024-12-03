@@ -2,4 +2,4 @@
 ../Core/Src/MCP2317.c:34:6:MCP17023_init	1
 ../Core/Src/MCP2317.c:43:6:MCP17023_set_led	1
 ../Core/Src/MCP2317.c:50:6:MCP17023_chenillard	2
-../Core/Src/MCP2317.c:67:5:MCP17023_led	6
+../Core/Src/MCP2317.c:67:6:MCP17023_led	6
