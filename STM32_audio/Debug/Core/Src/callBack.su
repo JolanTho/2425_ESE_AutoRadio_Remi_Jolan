@@ -1,0 +1,2 @@
+../Core/Src/callBack.c:25:6:HAL_UART_RxCpltCallback	24	static,ignoring_inline_asm
+../Core/Src/callBack.c:34:6:HAL_SPI_TxCpltCallback	16	static

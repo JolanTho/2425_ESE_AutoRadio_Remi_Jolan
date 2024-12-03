@@ -1,0 +1,5 @@
+../Core/Src/shell.c:47:6:shell_init	8	static
+../Core/Src/shell.c:61:6:shell_run	24	static
+../Core/Src/shell.c:129:6:subfunct_help	40	static
+../Core/Src/shell.c:139:6:subfunct_clear	16	static
+../Core/Src/shell.c:148:6:debug	16	static

@@ -1,0 +1,4 @@
+../Core/Src/MCP2317.c:18:6:MCP17023_init	8	static
+../Core/Src/MCP2317.c:25:6:MCP17023_write_register	16	static
+../Core/Src/MCP2317.c:42:6:MCP17023_set_led	16	static
+../Core/Src/MCP2317.c:49:6:MCP17023_chenillard	24	static
