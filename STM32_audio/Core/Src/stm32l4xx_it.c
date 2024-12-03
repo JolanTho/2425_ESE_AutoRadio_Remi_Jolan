@@ -207,8 +207,10 @@ void SPI3_IRQHandler(void)
   /* USER CODE END SPI3_IRQn 0 */
   HAL_SPI_IRQHandler(&hspi3);
   /* USER CODE BEGIN SPI3_IRQn 1 */
-  spi_tx_complete = 0;
-  HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
+
+//  spi_tx_complete = 0;
+//  HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
+
   /* USER CODE END SPI3_IRQn 1 */
 }
 

@@ -64,8 +64,8 @@ all: main-build
 main-build: Audio.elf secondary-outputs
 
 # Tool invocations
-Audio.elf Audio.map: $(OBJS) $(USER_OBJS) /Volumes/jolanT/Ensea/3A/audio/TP/Audio/STM32L476RGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Audio.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/Volumes/jolanT/Ensea/3A/audio/TP/Audio/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Audio.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Audio.elf Audio.map: $(OBJS) $(USER_OBJS) C:\Users\remip\STM32CubeIDE\workspace_projet\2425_ESE_AutoRadio_Remi_Jolan\STM32_audio\STM32L476RGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Audio.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\remip\STM32CubeIDE\workspace_projet\2425_ESE_AutoRadio_Remi_Jolan\STM32_audio\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Audio.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

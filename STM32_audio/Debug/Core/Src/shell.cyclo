@@ -1,5 +1,5 @@
-../Core/Src/shell.c:47:6:shell_init	2
-../Core/Src/shell.c:61:6:shell_run	13
-../Core/Src/shell.c:129:6:subfunct_help	2
-../Core/Src/shell.c:139:6:subfunct_clear	1
-../Core/Src/shell.c:148:6:debug	1
+../Core/Src/shell.c:48:6:shell_init	2
+../Core/Src/shell.c:62:6:shell_run	13
+../Core/Src/shell.c:130:6:subfunct_help	2
+../Core/Src/shell.c:140:6:subfunct_clear	1
+../Core/Src/shell.c:149:6:debug	1
