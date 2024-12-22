@@ -7,6 +7,8 @@
 1) La référence du GPIO Expander est MCP23017.
 2) Sur la stm32 le SPI utilisé est le SPI3 avec le MOSI branché sur PB5 et le MISO sur PC11.
 3) MEttre la photo des paramètre.
+   <p align="center"><img src="https://github.com/JolanTho/24-25_ESE_TP_BUS_RESEAUX_WEIDLE_THOMASSET/blob/main/screen_TP/TP3/SALUTSALUT.PNG" width="600" /> </p> 
+
 
 
 ## 3 - Le CODEC audio SGTL5000
