@@ -19,9 +19,11 @@ Pour vérifier que tout soit correctement configuré nous avons fais un rapide p
 ### 1 - Configuration préalable
 1) Les pins I2C utilisées pour la configuration de la stm32 sont les pins PB10 et PB11. Cela correspond à l'I2C 2 de la stm32.
 
-3) Configuration de SAI2
+3) Configuration de SAI2_A
 
       <p align="center"><img src="https://github.com/JolanTho/2425_ESE_AutoRadio_Remi_Jolan/blob/main/Photos/parametre_SAI2.png" width="600" /> </p> 
+   Configuration de SAI2_B
+   <p align="center"><img src="https://github.com/JolanTho/2425_ESE_AutoRadio_Remi_Jolan/blob/main/Photos/parametre_SAIB.png" width="600" /> </p> 
 ### 2 - Configuration du CODEC par l'I2C
 Adresse des registre :
 - CHIP_ANA_POWER : 0x0030
