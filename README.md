@@ -1,6 +1,6 @@
 # 2425_ESE_AutoRadio_Remi_Jolan
 
-#TP synthèse autoradio
+# TP synthèse autoradio
 
 ## 2 - LeGPIO Expander et le VU mètre
 ### 1- Configuration 
