@@ -6,12 +6,21 @@
 ### 1- Configuration 
 1) La référence du GPIO Expander est MCP23017.
 2) Sur la stm32 le SPI utilisé est le SPI3 avec le MOSI branché sur PB5 et le MISO sur PC11.
-3) MEttre la photo des paramètre.
+3) Paramètre pour configurer la stm32 :
    <p align="center"><img src="https://github.com/JolanTho/2425_ESE_AutoRadio_Remi_Jolan/blob/main/Photos/param%C3%A8tre_SPI_GPIO_Expander.png" width="600" /> </p> 
+
+### 2 - Test
+Pour vérifier que tout soit correctement configuré nous avons fais un rapide programme permettant de faire clignoter une LED, puis nous avons fait un chenillard pour vérifier si toutes les LEDs fonctionnaient correctement et enfin nous avons fait une fonction permettant d'allumer et d'éteindre chaque LED séparément on passant par un shell.
 
 
 
 ## 3 - Le CODEC audio SGTL5000
+
+### 1 - Configuration préalable
+1) Les pins I2C utilisées pour la configuration de la stm32 sont les pins PB10 et PB11. Cela correspond à l'I2C 2 de la stm32.
+
+3) Configuration de SAI2
+    
 ### 2 - Configuration du CODEC par l'I2C
 Adresse des registre :
 - CHIP_ANA_POWER : 0x0030
