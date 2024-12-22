@@ -48,4 +48,4 @@ Pour vérifier que tout soit correctement configuré nous avons fais un rapide p
 ### 3 - Signaux I2S
 Observation des signaux I2S à l'oscilloscope :
 
-<p align="center"><img src="https://github.com/JolanTho/2425_ESE_AutoRadio_Remi_Jolan/blob/main/Photos/I2C.png" width="600" /> </p>
+<p align="center"><img src="https://github.com/JolanTho/2425_ESE_AutoRadio_Remi_Jolan/blob/main/Photos/sda1_.png" width="600" /> </p>
