@@ -27,6 +27,8 @@ Pour vérifier que tout soit correctement configuré nous avons fais un rapide p
 ### 2 - Configuration du CODEC par l'I2C
 1) Visualisation de MCLK à l'oscilloscope
    <p align="center"><img src="https://github.com/JolanTho/2425_ESE_AutoRadio_Remi_Jolan/blob/main/Photos/mclk1.png" width="600" /> </p> 
+3) observation de la trame I2C à l'oscilloscope
+   
 Adresse des registre :
 - CHIP_ANA_POWER : 0x0030
 - CHIP_LINREG_CTRL : 0x0026
