@@ -54,4 +54,6 @@ Pour vérifier que tout est correctement configuré, nous avons écrit un progra
 Observation des signaux I2S à l’oscilloscope :  
 <p align="center"><img src="https://github.com/JolanTho/2425_ESE_AutoRadio_Remi_Jolan/blob/main/Photos/sda1_.png" width="600" /></p>  
 
+Nous avons réussis à générer un signal en dent de scie grâce au micro-processeur et ainsi faire sortir du son sur une prise Jack mais nous n'avons pas réussis à récupérer les informations en sortie du codec pour pouvoir faire un vu mètre.
+
 ---
